@@ -127,6 +127,7 @@ def game_hash
 end
 
 def num_points_scored(player)
+<<<<<<< HEAD
   game_hash.each do |o_key, o_val|
     game_hash[o_key].each do |i_key, i_val|
       game_hash[o_key][:players].each { |el| 
@@ -216,3 +217,9 @@ def big_shoe_rebounds
 end 
 
   
+=======
+  
+end 
+
+# Write code here
+>>>>>>> c9a548e8366488bc8cb8a847ecb52fde23aa294a
